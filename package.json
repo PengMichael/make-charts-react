@@ -1,0 +1,42 @@
+{
+  "name": "make-charts-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.2.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "antd": "^3.25.3",
+    "babel-plugin-import": "^1.13.0",
+    "customize-cra": "^0.9.1",
+    "echarts": "^4.5.0",
+    "echarts-for-react": "^2.0.15-beta.1",
+    "immutability-helper": "^3.0.1",
+    "react-app-rewired": "^2.1.5",
+    "react-dnd": "^9.5.1",
+    "react-dnd-html5-backend": "^9.5.1"
+  }
+}
